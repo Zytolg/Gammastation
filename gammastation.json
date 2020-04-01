@@ -1,0 +1,11 @@
+{
+    "map_name": "Gamma Station",
+    "map_path": "map_files/Gammastation",
+    "map_file": "Gammastation.dmm",
+    "shuttles": {
+	    "emergency": "emergency_kilo",
+	    "ferry": "ferry_fancy",
+	    "cargo": "cargo_box",
+	    "whiteship": "whiteship_kilo"
+    }
+}
