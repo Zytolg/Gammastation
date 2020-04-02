@@ -1,11 +1,12 @@
 {
     "map_name": "Gamma Station",
     "map_path": "map_files/Gammastation",
-    "map_file": "Gammastation.dmm",
+    "map_file": ["Gammastation.dmm","Gammastation_LVL2.dmm"],
     "shuttles": {
 	    "emergency": "emergency_kilo",
 	    "ferry": "ferry_fancy",
 	    "cargo": "cargo_box",
 	    "whiteship": "whiteship_kilo"
-    }
+    },
+	"traits": [{"Up" : 1, "Linkage" : "Cross"}, {"Down" : -1, "Baseturf" : "/turf/open/openspace", "Linkage" : "Cross"}]
 }
