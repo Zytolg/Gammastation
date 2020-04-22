@@ -511,6 +511,12 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Law Office"
 	icon_state = "law"
 
+/area/nightclub
+	name = "Night Club"
+	icon_state = "bar"
+	mood_bonus = 5
+	mood_message = "<span class='nicegreen'>This music makes me want to move!\n</span>"
+
 
 //Engineering
 
@@ -784,10 +790,16 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Medbay Treatment Center"
 	icon_state = "exam_room"
 
+/area/medical/psychology
+	name = "Psychology Office"
+	icon_state = "psychology"
+	mood_bonus = 3
+	mood_message = "<span class='nicegreen'>I feel at ease here.\n</span>"
+	ambientsounds = list('sound/ambience/aurora_caelus_short.ogg')
+
 /area/medical/rad_room
 	name = "Radiation Treatment"
 	icon_state = "medbay2"
-
 
 //Security
 
