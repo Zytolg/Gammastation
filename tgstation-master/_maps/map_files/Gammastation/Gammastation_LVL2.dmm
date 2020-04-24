@@ -11747,7 +11747,7 @@
 	},
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	id = "cargocell;
+	id = "cargocell";
 	name = "Cargo Holding Cell";
 	req_access_txt = "63"
 	},
@@ -25742,6 +25742,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"bwV" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/table,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "bxm" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -25860,9 +25874,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"bWV" = (
-/turf/closed/wall,
-/area/quartermaster/qm)
 "cfM" = (
 /turf/open/openspace,
 /area/maintenance/central)
@@ -25938,15 +25949,6 @@
 /obj/structure/window/reinforced/spawner/west,
 /turf/open/floor/plasteel/dark,
 /area/science/mixing)
-"cIH" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/shutters{
-	id = "vacantstore";
-	name = "Store Shutters"
-	},
-/turf/open/floor/plasteel,
-/area/space)
 "cLV" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -25978,13 +25980,6 @@
 	},
 /turf/open/openspace,
 /area/crew_quarters/cafeteria)
-"cOZ" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Vacant Commissary Maintenance";
-	req_access_txt = "32"
-	},
-/turf/open/floor/plating,
-/area/space)
 "cPC" = (
 /turf/open/floor/plasteel/white,
 /area/crew_quarters/heads/hor)
@@ -26002,9 +25997,6 @@
 /obj/structure/railing,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
-"cRQ" = (
-/turf/open/floor/plasteel,
-/area/quartermaster/qm)
 "cUp" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -26086,6 +26078,15 @@
 /obj/effect/turf_decal/trimline/purple/line,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"dwG" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters{
+	id = "vacantstore";
+	name = "Store Shutters"
+	},
+/turf/open/floor/plasteel,
+/area/space)
 "dwZ" = (
 /obj/structure/railing,
 /obj/machinery/light{
@@ -26272,6 +26273,9 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel,
 /area/janitor)
+"erq" = (
+/turf/open/floor/plasteel,
+/area/quartermaster/qm)
 "esi" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -26487,10 +26491,6 @@
 /obj/item/radio,
 /turf/open/floor/plasteel,
 /area/space)
-"fFF" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/quartermaster/qm)
 "fGG" = (
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
@@ -26623,6 +26623,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"gso" = (
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/space)
 "gts" = (
 /turf/closed/wall/r_wall,
 /area/science/storage)
@@ -26733,10 +26739,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
-"gZr" = (
-/obj/effect/turf_decal/stripes/white/line,
-/turf/open/floor/wood,
-/area/space)
 "hbV" = (
 /obj/structure/table,
 /turf/open/floor/plasteel,
@@ -26870,6 +26872,20 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"hLQ" = (
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/rack,
+/turf/open/floor/plasteel/dark,
+/area/space)
 "hNC" = (
 /obj/effect/turf_decal/trimline/green/filled/corner,
 /turf/open/floor/plasteel,
@@ -27312,6 +27328,13 @@
 /obj/item/pen,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"key" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Vacant Commissary Maintenance";
+	req_access_txt = "32"
+	},
+/turf/open/floor/plating,
+/area/space)
 "kgU" = (
 /obj/machinery/light{
 	dir = 8
@@ -27376,12 +27399,6 @@
 /obj/item/reagent_containers/food/condiment/pack/ketchup,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/cafeteria)
-"kwx" = (
-/obj/effect/turf_decal/stripes/white/line,
-/turf/open/floor/wood{
-	icon_state = "wood-broken5"
-	},
-/area/space)
 "kxS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -27395,6 +27412,10 @@
 /obj/effect/turf_decal/trimline/red/filled/warning,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
+"kCM" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/quartermaster/qm)
 "kFJ" = (
 /obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/plasteel,
@@ -27470,16 +27491,14 @@
 "kUi" = (
 /turf/closed/wall,
 /area/crew_quarters/fitness)
-"kUZ" = (
-/obj/machinery/door/airlock/grunge{
-	name = "Vacant Commissary"
-	},
-/turf/open/floor/wood,
-/area/space)
 "kWO" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/science/mixing)
+"kXI" = (
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/wood,
+/area/space)
 "kYL" = (
 /obj/structure/lattice/catwalk,
 /turf/open/openspace,
@@ -27580,20 +27599,6 @@
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/floor/plasteel/freezer,
 /area/crew_quarters/kitchen)
-"lsO" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/table,
-/turf/open/floor/plasteel/dark,
-/area/space)
 "ltR" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 8
@@ -27874,11 +27879,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
-"nCP" = (
-/obj/structure/table,
-/obj/item/flashlight/lamp,
-/turf/open/floor/wood,
-/area/space)
 "nFx" = (
 /obj/structure/railing{
 	dir = 4
@@ -28098,6 +28098,11 @@
 /obj/structure/railing/corner,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/locker_room)
+"piP" = (
+/obj/structure/table,
+/obj/item/flashlight/lamp,
+/turf/open/floor/wood,
+/area/space)
 "pjv" = (
 /turf/closed/wall,
 /area/crew_quarters/fitness/locker_room)
@@ -28904,20 +28909,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/locker_room)
-"uAZ" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/rack,
-/turf/open/floor/plasteel/dark,
-/area/space)
 "uCF" = (
 /turf/open/floor/engine/hull,
 /area/space)
@@ -29051,10 +29042,6 @@
 /area/quartermaster/qm)
 "voD" = (
 /obj/machinery/disposal/bin,
-/turf/open/floor/plasteel,
-/area/quartermaster/qm)
-"vqi" = (
-/obj/machinery/holopad,
 /turf/open/floor/plasteel,
 /area/quartermaster/qm)
 "vqY" = (
@@ -29364,9 +29351,18 @@
 /obj/structure/railing,
 /turf/open/floor/wood,
 /area/library)
+"wJY" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Vacant Commissary"
+	},
+/turf/open/floor/wood,
+/area/space)
 "wKP" = (
 /turf/open/openspace,
 /area/crew_quarters/fitness/locker_room)
+"wOp" = (
+/turf/closed/wall,
+/area/quartermaster/qm)
 "wOq" = (
 /obj/structure/railing{
 	dir = 4
@@ -29528,6 +29524,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
+"xMk" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel,
+/area/quartermaster/qm)
 "xNV" = (
 /obj/structure/table,
 /obj/effect/turf_decal/delivery,
@@ -56017,10 +56017,10 @@ aMj
 pbe
 gVp
 gVp
-fFF
-fFF
+kCM
+kCM
 tBG
-fFF
+kCM
 qmY
 aiU
 eVD
@@ -56532,10 +56532,10 @@ npa
 pEl
 aMj
 voD
-cRQ
-vqi
+erq
+xMk
 vmb
-bWV
+wOp
 aad
 aad
 aad
@@ -56792,15 +56792,15 @@ xQi
 vBI
 vBI
 vBI
-bWV
+wOp
 afk
 afk
 aaf
-gZr
-lsO
-lsO
-lsO
-lsO
+kXI
+bwV
+bwV
+bwV
+bwV
 aad
 aag
 aad
@@ -57049,16 +57049,16 @@ aiN
 wYr
 tHU
 fRe
-bWV
-nCP
+wOp
+piP
 aHM
 aGu
-gZr
+kXI
 aag
 alU
 alU
 alU
-cOZ
+key
 aag
 rNI
 aaG
@@ -57306,14 +57306,14 @@ wCe
 ylS
 aiO
 aiO
-bWV
+wOp
 aad
 aaf
 aaf
-gZr
+kXI
 alU
-uAZ
-uAZ
+hLQ
+hLQ
 aag
 aad
 aag
@@ -57567,10 +57567,10 @@ jwf
 aad
 agS
 aaf
-kwx
+gso
 alU
-uAZ
-uAZ
+hLQ
+hLQ
 alU
 aad
 aag
@@ -57816,14 +57816,14 @@ npa
 eTl
 gVp
 gVp
-bWV
+wOp
 eAD
 jtr
-bWV
-bWV
+wOp
+wOp
 aad
 aad
-kUZ
+wJY
 aad
 alU
 aag
@@ -58074,17 +58074,17 @@ gVp
 gVp
 pyr
 aad
-bWV
-bWV
+wOp
+wOp
 aad
 lfR
 lfR
 pyr
 pyr
 aad
-cIH
-cIH
-cIH
+dwG
+dwG
+dwG
 aad
 aad
 aWv
