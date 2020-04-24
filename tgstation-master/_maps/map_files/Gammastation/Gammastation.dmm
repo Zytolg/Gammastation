@@ -3337,6 +3337,7 @@
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
 	},
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel,
 /area/storage/primary)
 "gFT" = (
@@ -4032,6 +4033,7 @@
 	pixel_x = -4;
 	pixel_y = -4
 	},
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel,
 /area/storage/primary)
 "tTp" = (
