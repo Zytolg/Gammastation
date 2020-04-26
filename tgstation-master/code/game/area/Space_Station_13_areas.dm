@@ -135,6 +135,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Morgue Maintenance"
 	icon_state = "morgue_maint"
 
+/area/maintenance/department/medical/lobby
+	name = "Medbay Lobby Maintenance"
+
 /area/maintenance/department/science
 	name = "Science Maintenance"
 	icon_state = "maint_sci"
@@ -409,6 +412,15 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/fitness/recreation
 	name = "Recreation Area"
 	icon_state = "fitness"
+
+/area/crew_quarters/fitness/pool
+	name = "Swimming Pool"
+	icon_state = "pool"
+
+/area/crew_quarters/hangar
+	name = "Public Hangar"
+	icon_state = "hangar-pub"
+
 
 /area/crew_quarters/cafeteria
 	name = "Cafeteria"
@@ -875,6 +887,13 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Security Crematorium"
 	icon_state = "sec_prison"
 
+/area/security/processing/cell
+	name = "Brig Holding Cell"
+
+/area/security/processing/labor // processing room before prisoners are thrown into ze gulag
+	name = "Labor Camp Processing"
+
+
 /area/security/warden
 	name = "Brig Control"
 	icon_state = "Warden"
@@ -945,6 +964,13 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/security/checkpoint/customs/auxiliary
 	icon_state = "customs_point_aux"
+
+/area/security/hangar
+	name = "Security Hangar"
+	icon_state = "hangar-sec"
+
+/area/security/hangar/control
+	name = "Security Hangar Control"
 
 
 //Service
@@ -1126,6 +1152,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Port Emergency Storage"
 	icon_state = "emergencystorage"
 
+/area/storage/emergency/aft
+	name = "Aft Emergency Storage"
+	icon_state = "emergencystorage"
+
 /area/storage/tech
 	name = "Technical Storage"
 	icon_state = "auxstorage"
@@ -1266,3 +1296,13 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/maintenance/external/port/bow
 	name = "Port Bow External Hull Access"
+
+// Derelict structures near the station
+
+/area/derelict/moore
+	name = "Ship Moore"
+	icon_state = "derelict1"
+
+/area/derelict/trafficcontrol
+	name = "Traffic Control Tower"
+	icon_state = "derelict2"
