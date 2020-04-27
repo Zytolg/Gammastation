@@ -994,3 +994,14 @@
 	H.ForceContractDisease(P)
 	parrot_interest = null
 	H.visible_message("<span class='danger'>[src] dive bombs into [H]'s chest and vanishes!</span>", "<span class='userdanger'>[src] dive bombs into your chest, vanishing! This can't be good!</span>")
+
+/mob/living/simple_animal/parrot/jasmine
+	name = "Jasmine"
+	desc = "Command's pet parrot. A very helpful tech support with 24/7 service."
+	gender = FEMALE
+	gold_core_spawnable = NO_SPAWN
+	speak_chance = 5 // Hi this is Jasmine how can i help you? BWAAAAWK!
+
+/mob/living/simple_animal/parrot/jasmine/Initialize()
+	ears = new /obj/item/radio/headset/headset_com(src)
+	available_channels = list(":c")

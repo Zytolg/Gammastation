@@ -519,6 +519,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Chapel Dock"
 	icon_state = "construction"
 
+/area/chapel/lower
+	name = "Chapel Basement"
+
 /area/lawoffice
 	name = "Law Office"
 	icon_state = "law"
