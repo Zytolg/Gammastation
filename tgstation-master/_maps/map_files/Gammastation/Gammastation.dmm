@@ -1363,10 +1363,12 @@
 /turf/closed/wall,
 /area/security/processing/labor)
 "aeZ" = (
+/obj/structure/stairs/south{
+	dir = 1
+	},
 /turf/open/floor/plasteel/stairs,
 /area/security/processing/labor)
 "afa" = (
-/obj/structure/stairs/south,
 /turf/open/floor/plasteel/stairs,
 /area/security/processing/labor)
 "afb" = (
@@ -3233,6 +3235,12 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/toilet/restrooms)
+"aID" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/security/processing/labor)
 "aJz" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Library Access"
@@ -4541,6 +4549,14 @@
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/checker,
 /area/crew_quarters/theatre)
+<<<<<<< HEAD
+"olw" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/security/processing/labor)
+=======
 "ofs" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -4557,6 +4573,7 @@
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /turf/open/floor/plating,
 /area/maintenance/fore/secondary)
+>>>>>>> f4846eb43da120e57440acd69d721b7de7a6308f
 "oDO" = (
 /obj/structure/railing{
 	dir = 8
@@ -27884,8 +27901,8 @@ aeS
 aeS
 aeS
 aeS
-act
-act
+aeS
+aeS
 act
 act
 act
@@ -28137,12 +28154,12 @@ aeS
 aeU
 aeU
 aeU
-aeU
+aeS
 aeZ
 afa
+aeU
+aeU
 aeS
-act
-act
 act
 act
 act
@@ -28394,12 +28411,12 @@ aeS
 aeU
 aeU
 aeU
+olw
+aID
+aID
 aeU
-aeY
-aeY
+aeU
 aeS
-act
-act
 act
 act
 act
@@ -28653,10 +28670,10 @@ aeU
 aeU
 aeU
 aeU
-aeY
+aeU
+aeU
+aeU
 aeS
-act
-act
 act
 act
 act
@@ -28912,8 +28929,8 @@ aeP
 aeP
 aeP
 aeR
-act
-act
+aeS
+aeS
 act
 act
 act
