@@ -20231,8 +20231,11 @@
 /turf/open/floor/plating,
 /area/space/nearstation)
 "aWz" = (
-/obj/machinery/power/solar,
 /obj/structure/cable,
+/obj/machinery/power/solar{
+	id = "mooresolar";
+	name = "Ship Moore Solar Panel"
+	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/derelict/moore)
 "aWA" = (
@@ -25747,6 +25750,13 @@
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"bpf" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/derelict/moore)
 "bpq" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -26225,6 +26235,13 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/crew_quarters/fitness/recreation)
+"dnq" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Maintenance Access";
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "doL" = (
 /turf/open/floor/carpet,
 /area/crew_quarters/cafeteria)
@@ -26783,6 +26800,13 @@
 /obj/machinery/vending/wardrobe/hydro_wardrobe,
 /turf/open/floor/plasteel,
 /area/hydroponics)
+"fuy" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "EVA Room";
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "fxG" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -26976,6 +27000,10 @@
 /obj/structure/railing,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
+"gGf" = (
+/obj/structure/cable,
+/turf/closed/wall,
+/area/derelict/moore)
 "gGl" = (
 /obj/structure/railing/corner,
 /obj/structure/railing{
@@ -27985,6 +28013,14 @@
 "jUz" = (
 /turf/open/floor/plasteel,
 /area/quartermaster/miningoffice)
+"jVG" = (
+/obj/machinery/power/solar{
+	id = "mooresolar";
+	name = "Ship Moore Solar Panel"
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel/airless/solarpanel,
+/area/derelict/moore)
 "jWt" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
@@ -28542,6 +28578,11 @@
 "lQh" = (
 /turf/open/floor/plasteel,
 /area/quartermaster/qm)
+"lQq" = (
+/obj/structure/cable,
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/derelict/moore)
 "lQs" = (
 /turf/open/floor/plasteel/white,
 /area/science/research)
@@ -28620,6 +28661,16 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"mmr" = (
+/obj/machinery/door/airlock/external{
+	name = "Moore Solar Access";
+	safety_mode = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "mnl" = (
 /turf/closed/wall/r_wall,
 /area/security/prison/mess)
@@ -28692,6 +28743,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
+"mLn" = (
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/airless,
+/area/space)
 "mMD" = (
 /obj/structure/ladder,
 /turf/open/floor/plating,
@@ -28772,6 +28827,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"ncF" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/derelict/moore)
 "ndh" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/ladder,
@@ -29229,6 +29288,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/recreation)
+"oOj" = (
+/obj/machinery/door/airlock/external{
+	name = "Docking Bridge";
+	safety_mode = 1
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "oPD" = (
 /obj/machinery/conveyor_switch{
 	id = "cargosend";
@@ -29302,6 +29368,11 @@
 /obj/structure/railing/corner,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/locker_room)
+"piv" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/derelict/moore)
 "pjv" = (
 /turf/closed/wall,
 /area/crew_quarters/fitness/locker_room)
@@ -29314,6 +29385,11 @@
 /area/quartermaster/sorting)
 "plk" = (
 /obj/structure/cable,
+/obj/machinery/power/solar_control{
+	dir = 4;
+	id = "tcsolar";
+	name = "Telecomms Solar Control"
+	},
 /turf/open/floor/plating,
 /area/tcommsat/server)
 "plp" = (
@@ -29714,8 +29790,11 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard)
 "qBL" = (
-/obj/machinery/power/solar,
 /obj/structure/cable,
+/obj/machinery/power/solar{
+	id = "tcsolar";
+	name = "Telecomms Solar Array"
+	},
 /turf/open/floor/plasteel/airless/solarpanel,
 /area/space/nearstation)
 "qCy" = (
@@ -29725,6 +29804,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/service)
+"qCP" = (
+/obj/machinery/door/airlock/external{
+	name = "Moore Airlock";
+	safety_mode = 1
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "qCT" = (
 /obj/structure/chair/comfy/lime,
 /turf/open/floor/plasteel/white,
@@ -29792,6 +29878,14 @@
 "qKX" = (
 /turf/open/floor/plasteel/dark,
 /area/science/mixing)
+"qMJ" = (
+/obj/machinery/power/solar_control{
+	dir = 1;
+	id = "mooresolar";
+	name = "Ship Moore Solar Control"
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "qNb" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -30864,6 +30958,17 @@
 "uPR" = (
 /turf/closed/wall,
 /area/maintenance/aft)
+"uRf" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/external{
+	name = "Moore Solar Access";
+	safety_mode = 1
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "uSn" = (
 /turf/closed/wall/r_wall,
 /area/science/robotics/lab)
@@ -31487,6 +31592,13 @@
 /obj/structure/railing/corner,
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
+"xoL" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Moore Control";
+	req_access_txt = "12"
+	},
+/turf/open/floor/plating,
+/area/derelict/moore)
 "xpz" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -31594,6 +31706,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison/visit)
+"xJh" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/derelict/moore)
 "xKa" = (
 /obj/structure/lattice/catwalk,
 /turf/open/openspace/airless,
@@ -80136,7 +80252,7 @@ amA
 azi
 amA
 acn
-aWz
+jVG
 azi
 azi
 azi
@@ -80901,9 +81017,9 @@ amA
 azi
 hbs
 hbs
-hbs
-aag
-hbs
+nLA
+uRf
+nLA
 hbs
 hbs
 azi
@@ -81157,11 +81273,11 @@ hbs
 azi
 azi
 hbs
+piv
+bpf
+ncF
 aag
-aag
-aag
-aag
-aag
+qMJ
 hbs
 amA
 azi
@@ -81402,7 +81518,7 @@ hbs
 hbs
 hbs
 hbs
-aag
+dnq
 hbs
 hbs
 aag
@@ -81414,11 +81530,11 @@ hbs
 aad
 hbs
 hbs
+lQq
 aag
 aag
 aag
-aag
-aag
+xJh
 hbs
 hbs
 hbs
@@ -81430,7 +81546,7 @@ aag
 aag
 hbs
 hbs
-aag
+dnq
 hbs
 hbs
 hbs
@@ -81650,9 +81766,9 @@ amA
 amA
 amA
 amA
-amA
-amA
-amA
+mLn
+mLn
+aaa
 nLA
 nLA
 hbs
@@ -81671,9 +81787,9 @@ aag
 aag
 aag
 hbs
+gGf
 hbs
-hbs
-aag
+mmr
 hbs
 hbs
 hbs
@@ -81694,9 +81810,9 @@ aag
 hbs
 nLA
 nLA
-amA
-amA
-amA
+aaa
+mLn
+mLn
 amA
 amA
 amA
@@ -81907,9 +82023,28 @@ amA
 amA
 amA
 amA
-amA
-amA
-amA
+mLn
+mLn
+mLn
+qCP
+aag
+qCP
+aag
+aag
+fuy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+ncF
 aag
 aag
 aag
@@ -81926,34 +82061,15 @@ aag
 aag
 aag
 aag
+fuy
 aag
 aag
+qCP
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-amA
-amA
-amA
+qCP
+mLn
+mLn
+mLn
 amA
 amA
 amA
@@ -82164,9 +82280,9 @@ amA
 amA
 amA
 amA
-amA
-amA
-amA
+mLn
+mLn
+mLn
 nLA
 nLA
 hbs
@@ -82208,9 +82324,9 @@ aag
 hbs
 nLA
 nLA
-amA
-amA
-amA
+mLn
+mLn
+mLn
 amA
 amA
 amA
@@ -82701,7 +82817,7 @@ aag
 hbs
 hbs
 hbs
-aag
+xoL
 hbs
 hbs
 hbs
@@ -82954,7 +83070,7 @@ nLA
 nLA
 hbs
 hbs
-aag
+oOj
 hbs
 aag
 aag
@@ -82962,7 +83078,7 @@ aag
 aag
 aag
 hbs
-aag
+oOj
 hbs
 hbs
 nLA
@@ -83204,7 +83320,7 @@ nLA
 nLA
 hbs
 hbs
-aag
+oOj
 hbs
 hbs
 nLA
@@ -83226,7 +83342,7 @@ amA
 aax
 aad
 hbs
-aag
+oOj
 hbs
 hbs
 nLA
@@ -84489,14 +84605,14 @@ aqO
 aqO
 aqO
 hbs
-aag
+oOj
 hbs
 aqO
 aqO
 aqO
 aqO
 hbs
-aag
+oOj
 hbs
 aqO
 aqO
@@ -84504,14 +84620,14 @@ aqO
 aqO
 aqO
 hbs
-aag
+oOj
 hbs
 aqO
 aqO
 aqO
 aqO
 hbs
-aag
+oOj
 hbs
 aqO
 aqO
@@ -91684,7 +91800,7 @@ amA
 amA
 amA
 amA
-nHU
+amA
 amA
 amA
 amA
