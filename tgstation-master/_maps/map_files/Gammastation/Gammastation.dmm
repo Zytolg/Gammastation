@@ -3822,6 +3822,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
+"cDE" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel/white,
+/area/science/lab)
 "cMY" = (
 /obj/structure/window,
 /obj/structure/window{
@@ -5667,6 +5671,10 @@
 /obj/structure/fermenting_barrel,
 /turf/open/floor/wood,
 /area/maintenance/department/medical/lobby)
+"wyj" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/plasteel,
+/area/science/robotics/lab)
 "wAy" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/fyellow,
@@ -32192,7 +32200,7 @@ aaa
 aaa
 aao
 aaJ
-aaF
+wyj
 aaI
 aaI
 biA
@@ -36057,7 +36065,7 @@ aaa
 aaa
 aba
 aba
-abk
+cDE
 abk
 abm
 abq
