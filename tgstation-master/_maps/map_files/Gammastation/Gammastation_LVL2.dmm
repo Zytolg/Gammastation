@@ -27590,6 +27590,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
+"dHd" = (
+/obj/structure/disposalpipe/sorting/mail{
+	dir = 8;
+	sortTypes = list(18,22,28,29)
+	},
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "dHe" = (
 /obj/structure/railing{
 	dir = 1
@@ -28211,6 +28218,14 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"eTd" = (
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mail Transfer Room";
+	req_access_txt = "50"
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "eTj" = (
 /obj/effect/turf_decal/trimline/neutral,
 /turf/open/floor/plasteel/white,
@@ -29145,6 +29160,13 @@
 	},
 /turf/open/floor/plasteel/chapel,
 /area/chapel/main)
+"gYH" = (
+/obj/structure/table,
+/obj/item/toy/plush/lizardplushie{
+	name = "Guards-The-Pipes"
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
 "gZg" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -30820,6 +30842,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
+"jRO" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
+"jRZ" = (
+/obj/structure/disposalpipe/trunk/multiz/down,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "jSU" = (
 /obj/effect/turf_decal/trimline/red/filled/line{
 	dir = 1
@@ -34324,6 +34357,13 @@
 /obj/structure/chair/comfy/lime,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"qCY" = (
+/obj/structure/disposalpipe/trunk/multiz/down,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "qDQ" = (
 /obj/machinery/door/airlock/research{
 	id_tag = "ResearchExt";
@@ -34548,6 +34588,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
+"qZN" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
 "qZV" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/plasteel/cafeteria,
@@ -35831,6 +35877,10 @@
 	dir = 8
 	},
 /area/chapel/main)
+"txv" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
 "tAE" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -36123,6 +36173,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
+"ubz" = (
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
 "ucm" = (
 /obj/structure/table,
 /turf/open/floor/wood,
@@ -36459,6 +36512,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"uDu" = (
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "uDy" = (
 /turf/open/floor/plasteel,
 /area/security/courtroom)
@@ -36756,6 +36815,10 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"vfB" = (
+/obj/structure/table,
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
 "vgj" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -37905,6 +37968,12 @@
 	},
 /turf/open/floor/plating,
 /area/security/execution/education)
+"xvH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
 "xwL" = (
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 6
@@ -60290,8 +60359,8 @@ aBu
 aMl
 uPR
 uPR
-pvA
-uDh
+csj
+dHd
 pvA
 uPR
 uPR
@@ -60547,8 +60616,8 @@ aBu
 aMl
 pvA
 pvA
-pvA
-pvA
+uDh
+jEy
 kjd
 xda
 uPR
@@ -60804,7 +60873,7 @@ aMl
 aMl
 pvA
 uPR
-pvA
+uDh
 uPR
 uPR
 jEy
@@ -61061,8 +61130,8 @@ aBu
 aMl
 pvA
 uPR
-pvA
-pvA
+jEy
+xda
 uPR
 pvA
 jEy
@@ -61319,7 +61388,7 @@ aMl
 pvA
 uPR
 uPR
-pvA
+uDh
 uPR
 uPR
 uPR
@@ -61575,10 +61644,10 @@ aBu
 aMl
 pvA
 uPR
-pvA
-pvA
-pvA
-pvA
+jRZ
+jRO
+ubz
+ubz
 uPR
 uDh
 uPR
@@ -61832,11 +61901,11 @@ aBu
 aMl
 pvA
 uPR
-pvA
-pvA
-pvA
-pvA
-uPR
+qCY
+qZN
+ubz
+ubz
+xkX
 uDh
 uPR
 amA
@@ -62089,12 +62158,12 @@ aBu
 aMl
 pvA
 uPR
-pvA
-pvA
-pvA
-pvA
-uPR
-uDh
+vfB
+xvH
+txv
+txv
+eTd
+uDu
 xkX
 amA
 amA
@@ -62346,11 +62415,11 @@ aMl
 aMl
 pvA
 uPR
-pvA
-pvA
-pvA
-pvA
-uPR
+gYH
+ubz
+ubz
+ubz
+xkX
 uDh
 xkX
 amA
@@ -62605,8 +62674,8 @@ pvA
 uPR
 uPR
 uPR
-pvA
-pvA
+ubz
+ubz
 uPR
 uDh
 xkX
