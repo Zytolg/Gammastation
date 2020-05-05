@@ -29160,6 +29160,13 @@
 	},
 /turf/open/floor/plasteel/chapel,
 /area/chapel/main)
+"gYH" = (
+/obj/structure/table,
+/obj/item/toy/plush/lizardplushie{
+	name = "Guards-The-Pipes"
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/aft)
 "gZg" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -62408,7 +62415,7 @@ aMl
 aMl
 pvA
 uPR
-vfB
+gYH
 ubz
 ubz
 ubz
