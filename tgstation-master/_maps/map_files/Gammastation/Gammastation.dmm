@@ -523,9 +523,8 @@
 /area/crew_quarters/fitness/locker_room)
 "acj" = (
 /obj/structure/grille,
-/obj/structure/grille,
-/turf/open/space/basic,
-/area/space/nearstation)
+/turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
 "ack" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -2998,6 +2997,16 @@
 "aBa" = (
 /turf/closed/wall,
 /area/hallway/primary/aft)
+"aBh" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mail Transfer Room";
+	req_access_txt = "50"
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
 "aBu" = (
 /turf/open/floor/circuit/green,
 /area/science/xenobiology)
@@ -3816,6 +3825,12 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/central/secondary)
+"buy" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/department/science/xenobiology)
 "bwp" = (
 /obj/item/wrench,
 /obj/item/kitchen/knife/combat/survival{
@@ -3833,6 +3848,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"bEw" = (
+/obj/structure/closet,
+/obj/item/extinguisher,
+/obj/effect/spawner/lootdrop/maintenance/two,
+/turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
 "bHM" = (
 /obj/structure/table,
 /obj/item/analyzer,
@@ -4118,6 +4139,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/fore/secondary)
+"dIv" = (
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/turf/open/floor/plating,
+/area/maintenance/central)
 "dKH" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -4346,7 +4371,7 @@
 /turf/open/floor/plasteel/checker,
 /area/crew_quarters/theatre)
 "fij" = (
-/obj/machinery/vending/wardrobe/engi_wardrobe,
+/obj/structure/closet/secure_closet/engineering_welding,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
 "fiw" = (
@@ -4777,6 +4802,10 @@
 	},
 /turf/open/floor/wood,
 /area/lawoffice)
+"iBx" = (
+/obj/structure/table,
+/turf/open/floor/plasteel,
+/area/maintenance/department/science/xenobiology)
 "iBT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	icon_state = "vent_map-2";
@@ -4896,6 +4925,9 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
+"jzv" = (
+/turf/open/floor/plasteel,
 /area/maintenance/department/science/xenobiology)
 "jAf" = (
 /obj/structure/grille,
@@ -5200,6 +5232,12 @@
 	},
 /turf/open/floor/wood,
 /area/crew_quarters/theatre/abandoned)
+"lLL" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/grille,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
 "lNC" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -5216,9 +5254,10 @@
 /turf/open/floor/wood,
 /area/crew_quarters/theatre/abandoned)
 "lTR" = (
-/obj/structure/cable,
-/turf/closed/wall,
-/area/maintenance/department/bridge)
+/obj/structure/disposalpipe/segment,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
 "lVV" = (
 /obj/machinery/vending/cigarette,
 /obj/effect/turf_decal/bot,
@@ -5573,6 +5612,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/science/robotics/lab)
+"oRo" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/maintenance/department/science/xenobiology)
 "oXk" = (
 /obj/machinery/biogenerator,
 /turf/open/floor/plating,
@@ -5789,6 +5832,12 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
+"qHk" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/department/science/xenobiology)
 "qIs" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plating,
@@ -5850,6 +5899,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science/xenobiology)
+"qWP" = (
+/obj/effect/decal/cleanable/greenglow/filled,
+/turf/open/floor/plating,
+/area/maintenance/department/bridge)
 "raO" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/junction{
@@ -6063,6 +6116,10 @@
 	},
 /turf/open/floor/wood,
 /area/hydroponics/garden)
+"swK" = (
+/obj/structure/ladder,
+/turf/open/floor/plasteel,
+/area/maintenance/department/science/xenobiology)
 "szr" = (
 /obj/structure/table,
 /obj/item/stack/cable_coil{
@@ -6222,6 +6279,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness/locker_room)
+"tEY" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/maintenance/department/science/xenobiology)
 "tGa" = (
 /obj/structure/closet/crate,
 /obj/item/mmi,
@@ -6363,6 +6426,7 @@
 /area/maintenance/fore/secondary)
 "utI" = (
 /obj/effect/decal/cleanable/greenglow/filled,
+/obj/machinery/power/generator,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
 "utN" = (
@@ -6760,6 +6824,10 @@
 /obj/structure/table/glass,
 /turf/open/floor/plating,
 /area/maintenance/department/bridge)
+"wUK" = (
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/turf/open/floor/plating,
+/area/maintenance/port)
 "wVj" = (
 /obj/structure/chair/sofa/corner{
 	dir = 1
@@ -22568,7 +22636,7 @@ aaa
 aaa
 aaa
 aaa
-acj
+abX
 aal
 acs
 aal
@@ -24082,7 +24150,7 @@ aaa
 afC
 afz
 afz
-afz
+acj
 afz
 afz
 afC
@@ -24092,8 +24160,8 @@ afC
 afC
 afz
 afz
-afz
-afz
+acj
+acj
 afz
 afz
 afC
@@ -24339,6 +24407,7 @@ afC
 afC
 cBA
 dpn
+lTR
 dpn
 dpn
 dpn
@@ -24348,8 +24417,7 @@ dpn
 dpn
 dpn
 dpn
-dpn
-dpn
+lLL
 dpn
 dpn
 qVD
@@ -25395,7 +25463,7 @@ aaa
 aaa
 aaa
 aaa
-acj
+abX
 aal
 acs
 aal
@@ -25652,7 +25720,7 @@ aaa
 aaa
 aaa
 aaa
-acj
+abX
 aal
 acs
 aal
@@ -25909,7 +25977,7 @@ aaa
 aaa
 aaa
 aaa
-acj
+abX
 aal
 acs
 aal
@@ -26666,21 +26734,21 @@ agX
 agX
 aKB
 jyp
-afz
-afC
-afC
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
 acj
+afC
+afC
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+abX
 aal
 acs
 aal
@@ -26937,7 +27005,7 @@ aaa
 aaa
 aaa
 aaa
-acj
+abX
 aal
 acs
 aal
@@ -27180,8 +27248,8 @@ agX
 agX
 aKB
 jyp
-afC
-afC
+afz
+afz
 afC
 afC
 aaa
@@ -27437,7 +27505,7 @@ acf
 agX
 aKB
 jyp
-afC
+afz
 afz
 afz
 afC
@@ -27694,7 +27762,7 @@ agX
 agX
 aKB
 jyp
-afC
+afz
 afz
 afz
 ach
@@ -27708,7 +27776,7 @@ aaa
 aaa
 aaa
 aaa
-acj
+abX
 aal
 acs
 aal
@@ -27952,7 +28020,7 @@ aKA
 aKB
 jyp
 afz
-afz
+acj
 afz
 afC
 aaa
@@ -28208,28 +28276,28 @@ aDe
 aDe
 aKB
 jyp
+bEw
 afC
-afz
 afz
 ach
 aaa
 aaa
 aaa
 aaa
-acj
-acj
+abX
+abX
 aaa
 aaa
-acj
-acj
+abX
+abX
 aaa
 aaa
 acs
 aal
 aaa
-acj
-acj
-acj
+abX
+abX
+abX
 aaa
 aal
 aaa
@@ -28466,7 +28534,7 @@ aDe
 aKB
 jyp
 afC
-afz
+afC
 afz
 afC
 aal
@@ -28722,27 +28790,27 @@ aDe
 aDe
 aKB
 jyp
-afC
-afC
-afC
+afz
+afz
+afz
 afC
 afC
 aaa
 aaa
 aaa
 aaa
-acj
+abX
 aaa
 aal
 aaa
-acj
-acj
+abX
+abX
 aaa
 acs
 aal
 aaa
 aaa
-acj
+abX
 aaa
 aaa
 aaa
@@ -29493,7 +29561,7 @@ aKB
 aKB
 aKB
 afC
-jyp
+aBh
 afC
 afC
 afz
@@ -29749,9 +29817,9 @@ agX
 agX
 agX
 aKB
-afz
+iBx
 eka
-qVD
+qHk
 afC
 afz
 afC
@@ -29764,7 +29832,7 @@ aaa
 aal
 aaa
 aaa
-acj
+abX
 aaa
 acs
 aal
@@ -29989,7 +30057,7 @@ aaf
 afC
 afz
 afz
-afz
+acj
 jyp
 aKB
 aKB
@@ -30006,9 +30074,9 @@ aBu
 aBu
 agX
 aKB
-afz
-afz
-jyp
+iBx
+jzv
+tEY
 afC
 afz
 afC
@@ -30263,8 +30331,8 @@ agX
 aBu
 agX
 aKB
-afz
-afz
+oRo
+jzv
 cxt
 afC
 afz
@@ -30275,7 +30343,7 @@ aaa
 aaa
 aaa
 aaa
-acj
+abX
 aal
 acs
 acs
@@ -30312,12 +30380,12 @@ abF
 abF
 aaC
 aaC
+wUK
 aaC
 aaC
 aaC
 aaC
-aaC
-aaC
+wUK
 aaC
 aaC
 aaC
@@ -30520,7 +30588,7 @@ aBu
 aBu
 agX
 aKB
-afz
+iBx
 afz
 tkE
 afC
@@ -30570,7 +30638,7 @@ aaC
 aaC
 aaC
 abF
-aaC
+wUK
 aaC
 aaC
 abF
@@ -30777,9 +30845,9 @@ agX
 agX
 agX
 aKB
-afz
-afz
-eka
+oRo
+jzv
+buy
 beX
 qVD
 afC
@@ -30823,10 +30891,10 @@ aaC
 aaC
 aaC
 aaC
+wUK
 aaC
 aaC
-aaC
-aaC
+wUK
 aaC
 aaC
 aaC
@@ -31036,7 +31104,7 @@ aKB
 aKB
 afD
 afz
-afC
+swK
 afC
 jyp
 ach
@@ -31077,7 +31145,7 @@ aoG
 act
 act
 abF
-aaC
+wUK
 aaC
 aaC
 abF
@@ -31294,8 +31362,8 @@ aaI
 aao
 afC
 afC
-cBA
-xoV
+afC
+jyp
 afC
 aaa
 aaa
@@ -31551,8 +31619,8 @@ afp
 aao
 afC
 cBA
+dpn
 xoV
-afz
 afC
 aal
 aal
@@ -39267,7 +39335,7 @@ kdl
 afE
 jif
 afB
-afB
+qWP
 afB
 uue
 afA
@@ -39800,11 +39868,11 @@ abD
 abB
 wYy
 wYy
+dIv
 wYy
 wYy
 wYy
-wYy
-wYy
+fLS
 wYy
 fLS
 fLS
@@ -40061,7 +40129,7 @@ fLS
 wYy
 wYy
 wYy
-wYy
+dIv
 wYy
 wYy
 wYy
@@ -40318,7 +40386,7 @@ fLS
 wYy
 wYy
 wYy
-wYy
+fLS
 wYy
 wYy
 lxW
@@ -40549,7 +40617,7 @@ aaa
 afE
 afG
 uuZ
-lTR
+afE
 dqg
 ofs
 mDm
@@ -40577,7 +40645,7 @@ fLS
 fLS
 fLS
 fLS
-wYy
+dIv
 lxW
 uFY
 woV
