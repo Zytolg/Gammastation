@@ -113731,13 +113731,13 @@
 "lTo" = (
 /obj/docking_port/stationary{
 	dheight = 4;
-	dir = 4;
 	dwidth = 4;
 	height = 9;
 	id = "aux_base_zone";
 	name = "aux base zone";
 	roundstart_template = /datum/map_template/shuttle/aux_base/default;
-	width = 9
+	width = 9;
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
@@ -116059,9 +116059,9 @@
 /area/science/misc_lab/range)
 "whP" = (
 /obj/machinery/power/solar_control{
-	dir = 4;
 	id = "foreport";
-	name = "Port Bow Solar Control"
+	name = "Port Bow Solar Control";
+	dir = 4
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
