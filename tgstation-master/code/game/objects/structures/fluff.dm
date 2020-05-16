@@ -248,6 +248,11 @@
 	desc = "A pile of scrap metal. It seems damaged beyond repair."
 	icon_state = "clockgolem_dead"
 
+/obj/structure/fluff/clockwork/cogscarab_shell
+	name = "broken cogscarab"
+	desc = "A scrapped cogscarab, a drone made out of bronze and once was infused with life energy."
+	icon_state = "cogscarab_shell"
+
 /obj/structure/fluff/hedge
 	name = "hedge"
 	desc = "A large bushy hedge."
